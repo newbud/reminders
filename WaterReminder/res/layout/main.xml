@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/onoff" android:text="CheckBox"></CheckBox>
+    <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enter Schedule"></TextView>
+    <TextView android:text="Start time" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:text="Hour" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Spinner android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/hour"></Spinner>
+    <Spinner android:id="@+id/minute" android:layout_height="wrap_content" android:layout_width="wrap_content"></Spinner>
+    <TextView android:text="Frequency" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <Spinner android:id="@+id/frequency" android:layout_height="wrap_content" android:layout_width="wrap_content"></Spinner>
+    <Spinner android:id="@+id/frequencyunit" android:layout_height="wrap_content" android:layout_width="wrap_content"></Spinner>
+    <Button android:text="Save" android:id="@+id/save" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    
+</LinearLayout>
